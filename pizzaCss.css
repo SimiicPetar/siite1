@@ -1,0 +1,437 @@
+*{
+		padding: 0;
+		margin: 0;
+	}
+		#headerBlack{
+			display: inline-block;
+			height: 70px;
+			width: 100%;
+			position: absolute;
+			background-color: black;
+		}
+		#headerWhite{
+			margin-top: 70px;
+			height: 76px;
+			width: 100%;
+			position: absolute;
+			background-color: white;
+			border-bottom: solid black;
+		}
+		#headerLeft{
+			height: 70px;
+			width: 50%;
+			position: absolute;
+			background-color: white;
+		}
+		#headerRight{
+			height: 70px;
+			width: 50%;
+			position: absolute;
+			background-color: white;
+			margin-left: 50%;
+		}
+		.h1{
+			font-size: 40px;
+			margin-left: 40%;
+			line-height: 80px;
+			font-family: Helvetica;
+		}
+
+
+
+
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+#dotDiv{
+	position: absolute;
+	margin-left: 48%;
+	margin-top: 580px;
+}
+#slide1,#slide2,#slide3{
+	position: absolute;
+	width: 80%;
+	height: 600px;
+	margin-left: 10%;
+
+}
+#img{
+	width: 500px;
+	height: 300px;
+	margin-left:100px;
+	margin-right: 100px;
+	margin-top: 800px;
+	border: solid red;
+	position: absolute;
+	border-bottom: red solid;
+	
+}
+
+
+
+#sectionSlide{
+	position: absolute;
+	width: 100%;height: 605px;
+	margin-top: 149px;
+	background-color: black;
+}
+.img{
+	position: absolute;
+	height: 200px;
+	width: 550px;
+	border: red solid;
+}
+#section2{
+	border-top: solid black 10px;
+	width: 100%;
+	height: 1700px;
+	margin-top: 750px;
+	position: absolute;
+	background-image: url(https://thethief.com/wp-content/uploads/2018/05/Pizza-Norge.jpg);
+	border-bottom: grey solid;
+	background-repeat: 
+}
+#img1{
+	margin-top: 50px;
+	margin-left: 11%;
+}
+#img2{
+	margin-top: 50px;
+	margin-left: 51%;
+}
+#img3{
+	margin-top: 300px;
+	margin-left: 11%;
+}
+#img4{
+	margin-top: 300px;
+	margin-left: 51%;
+}
+#img5{
+	margin-top: 550px;
+	margin-left:11%;
+}
+#img6{
+	margin-top: 550px;
+	margin-left: 51%;
+}
+#akcija{
+	text-align: left;
+	font-size: 28px;
+	margin-left:120px;
+	position: absolute;
+	color: red;
+}
+#p1{
+	text-align: center;
+	margin-left:120px;
+	position: absolute;
+	color: red;
+	margin-top: 20px;
+
+}
+#p2{
+	text-align: center;
+	margin-left:120px;
+	position: absolute;
+	color: red;
+	margin-top: 820px;
+}
+
+
+
+
+
+
+
+
+	.imgSection2{
+		position: absolute;
+	height: 220px;
+	width: 300px;
+	border-bottom:red solid;
+}
+#newsImg1{
+	margin-top: 1650px;
+	margin-left: 15%;
+}
+#newsImg2{
+	margin-top: 1650px;
+	margin-left: 40%;
+}
+#newsImg3{
+	margin-top: 1650px;
+	margin-left: 65%;
+}
+#newsImg4{
+	margin-top: 2000px;
+	margin-left: 15%;
+}
+#divText1{
+
+	position: absolute;
+	margin-top: 1870px;
+	margin-left: 15%;
+	background-color: black;
+	width: 300px;
+	height: 100px;
+	opacity: 0.4;
+}
+
+#divText2{
+	position: absolute;
+	margin-top: 1870px;
+	margin-left: 40%;
+	background-color: black;
+	width: 300px;
+	height: 100px;
+	opacity: 0.4;
+
+}
+#divText3{
+	position: absolute;
+	margin-top: 1870px;
+	margin-left: 65%;
+	background-color: black;
+	width: 300px;
+	height: 100px;
+	opacity: 0.4;
+
+}
+#divText4{
+	position: absolute;
+	margin-top: 2220px;
+	margin-left: 15%;
+	background-color: black;
+	width: 300px;
+	height: 100px;
+	opacity: 0.4;
+
+}
+#FindOut1{
+	cursor: pointer;
+	position: absolute;
+	margin-top:1930px;
+	margin-left:27%;
+	color:white;
+	width: 110px;
+	height: 30px;
+	border-radius:10px;
+	border: solid darkred;
+	text-align: center;
+	background-color:red;
+	line-height:-50px;
+}
+#FindOut2{
+	cursor: pointer;
+	position: absolute;
+	margin-top:1930px;
+	margin-left:52%;
+	color:white;
+	width: 110px;
+	height: 30px;
+	border-radius:10px;
+	border: solid darkred;
+	text-align: center;
+	background-color:red;
+	line-height:-50px;
+}
+#FindOut3{
+	cursor: pointer;
+	position: absolute;
+	margin-top:1930px;
+	margin-left:77%;
+	color:white;
+	width: 110px;
+	height: 30px;
+	border-radius:10px;
+	border: solid darkred;
+	text-align: center;
+	background-color:red;
+	line-height:-50px;
+}
+#FindOut4{
+	cursor: pointer;
+	position: absolute;
+	margin-top:2280px;
+	margin-left:27%;
+	color:white;
+	width: 110px;
+	height: 30px;
+	border-radius:10px;
+	border: solid darkred;
+	text-align: center;
+	background-color:red;
+	line-height:-50px;
+}
+#section4{
+	position: absolute;
+	background-color: black;
+	width: 100%;
+	height: 350px;
+	margin-top: 2400px;
+	border-bottom: grey solid;
+	border-top: grey solid;
+
+
+}
+#ulText1{
+	margin-top: 50px;
+	color: white;
+	margin-left:5%;
+	list-style:none;
+	position: absolute;
+
+}
+#ulText2{
+	margin-top: 50px;
+	color: white;
+	margin-left:20%;
+	list-style:none;
+	position: absolute;
+
+}
+#ulText3{
+	margin-top: 50px;
+	color: white;
+	margin-left:40%;
+	list-style:none;
+	position: absolute;
+
+}
+#ulText4{
+	margin-top: 50px;
+	color: white;
+	margin-left:60%;
+	list-style:none;
+	position: absolute;
+
+}
+#ulText5{
+	margin-top: 50px;
+	color: white;
+	margin-left:80%;
+	list-style:none;
+	position: absolute;
+}
+
+
+
+	#line1{
+text-align: center;
+margin-left:120px;
+position: absolute;
+color: red;
+margin-top:2320px;
+
+
+	}
+#line2{
+	text-align: center;
+	margin-left:120px;
+	position: absolute;
+	color: red;
+	margin-top:2360px;
+}
+#bigText1{
+	text-align: center;
+	margin-left:120px;
+	position: absolute;
+	color: white;
+	margin-top:2310px;
+	font-size: 70px;
+}
+#bigText2{
+	text-align: center;
+	margin-left:50%;
+	position: absolute;
+	color: red;
+	margin-top:2320px;
+	font-size: 50px;
+}
+#section5{
+	position: absolute;
+	width: 100%;
+	height: 60px;
+	background-color: white;
+	color: white;
+	margin-top: 2750px;
+	border-top: grey solid;
+}
+#icon{
+	width: 55px;
+	height: 55px;
+	cursor: pointer;
+}
+#dostava{
+	border: solid darkred;
+	background-color: red;
+	width: 180px;
+	height: 45px;
+	text-align: center;
+	cursor: pointer;
+	margin-top: 15px;
+	font-size: 20px;
+	line-height: 45px;
+	border-radius: 40px;
+	color: white;
+    font-family: Arial;
+}
+#pokupi{
+	border: solid darkblue;
+	background-color: blue;
+	width: 180px;
+	height: 45px;
+	text-align: center;
+	cursor: pointer;
+	margin-top: -52px;
+	font-size: 20px;
+	line-height: 45px;
+	border-radius: 40px;
+	color: white;
+    font-family: Arial;
+    float: right;
+    margin-right: 300px;
+    position: relative;
+}
+#logoHeader{
+	height: 90px;
+	width: 100px;
+	position: absolute;
+}
+#headerIcon{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	margin-left: 60px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+#ligrey{
+	color: grey;
+}
+#textSection5{
+	text-align: center;
+	margin-top:20px;
+	color: gray;
+}
+#dostava:hover {
+  opacity: 0.4;
+  filter: alpha(opacity=50); 
+}
+#pokupi:hover {
+  opacity: 0.4;
+  filter: alpha(opacity=50); 
+}
